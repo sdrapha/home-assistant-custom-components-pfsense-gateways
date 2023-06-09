@@ -1,10 +1,12 @@
 {
   "domain": "pfsense_gateways",
   "name": "pfSense Gateways",
-  "version": "1.1.1",
-  "documentation": "https://github.com/sdrapha/home-assistant-custom-components-pfsense-gateways",
-  "issue_tracker": "https://github.com/sdrapha/home-assistant-custom-components-pfsense-gateways/issues",
-  "dependencies": [],
   "codeowners": ["@sdrapha"],
-  "requirements": []
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/sdrapha/home-assistant-custom-components-pfsense-gateways",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/sdrapha/home-assistant-custom-components-pfsense-gateways/issues",
+  "requirements": [],
+  "version": "1.1.1"
 }

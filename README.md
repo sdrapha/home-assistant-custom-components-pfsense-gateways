@@ -4,8 +4,8 @@ https://github.com/travisghansen/hass-pfsense it supports much more features, in
 
 I personally still like this approach though, since I don't want my homeassistant to have any kind of control over pfsense. I really just want gateway status and that is all.
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)  
 You can add this as a custom repo in HACS. Replacing the original that has been archived.
-
 ___
 ## Gateways status for pfSense
 
