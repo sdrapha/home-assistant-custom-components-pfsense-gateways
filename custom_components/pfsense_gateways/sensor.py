@@ -54,7 +54,6 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend(
 )
 
 
-@asyncio.coroutine
 async def async_setup_platform(hass, config, async_add_devices, discovery_info=None):
     """Set up the pfSense sensor."""
     name = config.get(CONF_NAME)
